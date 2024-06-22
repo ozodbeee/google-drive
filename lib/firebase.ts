@@ -4,11 +4,11 @@ import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
 	apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-	authDomain: 'drive-30f8d.firebaseapp.com',
-	projectId: 'drive-30f8d',
-	storageBucket: 'drive-30f8d.appspot.com',
-	messagingSenderId: '61673043389',
-	appId: '1:61673043389:web:0b1df6d4c733b8a25c8ed4',
+	authDomain: 'drive-958ff.firebaseapp.com',
+	projectId: 'drive-958ff',
+	storageBucket: 'drive-958ff.appspot.com',
+	messagingSenderId: '197018630408',
+	appId: '1:197018630408:web:dad6b1c7255d06174e14bd',
 }
 
 !getApps().length ? initializeApp(firebaseConfig) : getApp()
